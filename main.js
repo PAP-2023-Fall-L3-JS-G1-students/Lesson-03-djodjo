@@ -35,7 +35,28 @@ Give it a value of a string, pick one of the facts from moon-facts.txt
 5. Set its textContent to fact1
 */
 
+let pin2 = Document.querySelector
+var moonFact3 = document.getElementById("moon-fact-3");
 
+var fact3 = '<p class="fact">A different fact for moon-fact-3</p>';
+
+moonFact3.innerHTML = fact3;
+
+
+var moonFact4 = document.getElementById("moon-fact-4");
+
+var fact4 = '<p class="fact">A different fact for moon-fact-4</p>';
+
+
+moonFact4.innerHTML = fact4;
+
+
+var moonFact5 = document.getElementById("moon-fact-5");
+
+
+var fact5 = '<p class="fact">A different fact for moon-fact-5</p>';
+
+moonFact5.innerHTML = fact5;
 
 
 
