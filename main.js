@@ -3,6 +3,7 @@
 2. Log the document in the console.
 */
 
+console.log(document);
 
 /* Exercise 2
 1. Create a variable pageTitle
@@ -12,6 +13,15 @@ Set its value to the method getElementById. Pass the method the id of the h1 tag
 Set its value to the method querySelector. Pass the method the id of the h1 tag. Don't forget id syntax!
 4. Log pageTitle2 in the console
 */
+var pageTitle = document.getElementById('page-title');
+console.log(pageTitle):
+
+let pageTitle2 = Document.querySelector('#page-title')
+console.log(pageTitle2);
+pageTitle.textContent = "Moon Facts";
+let fact1 = "The Moon is drifting away from the Earth. It is moving approximately 3.8 cm away from our planet every year.
+let pin1 = document.querySelector('#moon-fact1');
+pin1.textContent = fact1;
 
 
 
